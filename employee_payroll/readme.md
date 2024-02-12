@@ -17,11 +17,11 @@ RESPONSE - [
     }
 ]
 
-POST - http://localhost:3000/employee
+POST - http://localhost:3000/employee  
 BODY - {
         "name": "Samuel",
         "role": "Youtuber"
-}
+}  
 GET RESPONSE - [
     {
         "id": 1,
@@ -45,7 +45,7 @@ GET RESPONSE - [
     }
 ]
 
-DELETE - http://localhost:3000/employee/4
+DELETE - http://localhost:3000/employee/4  
 GET RESPONSE - [
     {
         "id": 1,
@@ -64,11 +64,11 @@ GET RESPONSE - [
     }
 ]
 
-PUT - http://localhost:3000/employee/2
+PUT - http://localhost:3000/employee/2  
 BODY - {
         "name": "Henry",
         "role": "Lawyer"
-}
+}  
 RESPONSE - {
     "id": 2,
     "name": "Henry",
