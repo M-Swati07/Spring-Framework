@@ -45,6 +45,17 @@ GET RESPONSE - [
     }
 ]
 
+PUT - http://localhost:3000/employee/2  
+BODY - {
+        "name": "Henry",
+        "role": "Lawyer"
+}  
+RESPONSE - {
+    "id": 2,
+    "name": "Henry",
+    "role": "Lawyer"
+}
+
 DELETE - http://localhost:3000/employee/4  
 GET RESPONSE - [
     {
@@ -63,14 +74,3 @@ GET RESPONSE - [
         "role": "Businessman"
     }
 ]
-
-PUT - http://localhost:3000/employee/2  
-BODY - {
-        "name": "Henry",
-        "role": "Lawyer"
-}  
-RESPONSE - {
-    "id": 2,
-    "name": "Henry",
-    "role": "Lawyer"
-}
