@@ -1,4 +1,4 @@
-GET - http://localhost:3000/employee
+GET - http://localhost:3000/employee  
 RESPONSE - [
     {
         "id": 1,
